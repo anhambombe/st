@@ -1,0 +1,8 @@
+streamlit
+openai
+llama-index
+nltk
+pandas
+
+numpy
+openpyxl
