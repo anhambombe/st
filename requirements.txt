@@ -3,6 +3,5 @@ openai
 llama-index
 nltk
 pandas
-
 numpy
-openpyxl
+openpyxl==3.0.7
