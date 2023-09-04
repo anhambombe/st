@@ -90,8 +90,12 @@ option = st.selectbox(
      df['Rnd'].unique())
 
 'You selected: ', option
+coluna=st.selectbox(df["Region"].unique(),
+df["Region"].unique()[0])
 
-chart_data = df["Region"].value_counts()
+grafcoluna=df[df["Region"]==coluna]
+
+chart_data = df.grafcoluna.value_counts()
 
 st.line_chart(chart_data)
 
