@@ -32,7 +32,7 @@ def load_data():
     #return data
 
     ######33
-    lqas_url = "MOZ_SIA_LQAS_Assessment.xlsx"
+    #lqas_url = "MOZ_SIA_LQAS_Assessment.xlsx"
     data = pd.read_excel(lqas_url, sheet_name="data")
     hh = pd.read_excel(lqas_url, sheet_name="Count_HH")
     dfg = pd.merge(data, hh, left_on='_index', right_on='_parent_index', how='left')
